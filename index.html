@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+
+    <title>Formulário com Validação</title>
+</head>
+<body>
+    <div class="container">
+        <section class="header">
+            <h2>Crie sua Conta</h2>
+        </section>
+
+        <form id="form" class="form">
+            <div class="form-content">
+                <label for="username">Nome do usuário</label>
+                <input type="text" id="username" 
+                placeholder="Digite seu nome"
+                />
+                <a>Aqui vai a mensagem de erro</a>                
+            </div>
+            
+            <div class="form-content">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" 
+                placeholder="Digite seu e-mail"
+                />
+                <a>Aqui vai a mensagem de erro</a>                
+            </div>
+
+            <div class="form-content">
+                <label for="password">Senha</label>
+                <input type="password" id="password"
+                placeholder="Digite sua senha"
+                />
+                <a>Aqui vai a mensagem de erro</a>                
+            </div>
+
+            <div class="form-content">
+                <label for="password-confirmation">Confirme sua senha</label>
+                <input type="password" id="password-confirmation" 
+                placeholder="Digite sua senha novamente 
+                "
+                />
+                <a>Aqui vai a mensagem de erro</a>                
+            </div>
+            <button type="submit">Cadastrar</button>
+
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
